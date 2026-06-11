@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: yellow;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background:blue;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+    }
+    .avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .name {
+      font-size: 1.4em;
+      font-weight: bold;
+      margin: 5px 0;
+    }
+    .bio {
+      font-size: 0.9em;
+      color: red;
+      margin-bottom: 10px;
+    }
+    .description {
+      font-size: 0.95em;
+      color: white;
+      margin-bottom: 15px;
+    }
+    .social-links a {
+      margin: 0 8px;
+      text-decoration: none;
+      color: #444;
+      font-size: 1.2em;
+      transition: color 0.3s;
+    }
+    .social-links a:hover {
+      color: #0077b5; /* Example hover color */
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://via.placeholder.com/80" alt="Avatar" class="avatar">
+    <div class="name">Jane Doe</div>
+    <div class="bio">Frontend Developer</div>
+    <div class="description">
+      Passionate about building beautiful and functional web experiences.
+    </div>
+    <div class="social-links">
+      <a href="https://twitter.com" target="_blank">🐦</a>
+      <a href="https://linkedin.com" target="_blank">💼</a>
+      <a href="https://github.com" target="_blank">💻</a>
+    </div>
+  </div>
+</body>
+</html>
